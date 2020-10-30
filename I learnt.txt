@@ -1,0 +1,23 @@
+#np.sum(df['esm colonne'])  ta3tik somme ta3 colonne kemla
+#len(df) ta3tik nombre de lignes
+
+#df.iloc[ligne, colonnes] wel ":" ma3neha lkol wel -1 ma3neha e5or wa7da 
+#y=df['target']
+#X=df.drop['target', axis=1]
+
+*video to understand SVM : https://www.youtube.com/watch?v=TtKF996oEl8&list=PLEiEAq2VkUULYYgj13YHUWmRePqiu8Ddy&index=22&ab_channel=Simplilearn
+
+*video to understand Confusion Matrix: 
+https://www.youtube.com/watch?v=prWyZhcktn4&ab_channel=Simplilearn
+
+* to understand Decision function: https://www.geeksforgeeks.org/ml-decision-function/
+
+* to understand parameters of SVC: Since we are trying to minimize some objective function, we can add some 'size' measure of the coefficient vector itself to the function. 
+C is essentially the inverse of the weight on that 'regularization' term. 
+Decreasing C will prevent overfitting by forcing the coefficients to be sparse or small, depending on the penalty. 
+Increasing C too much will promote underfitting.
+Gamma is a parameter for the RBF kernel. Increasing gamma allows for a more complex decision boundary (which can lead to overfitting, but can also improve results--it depends on the data).
+
+* to understand ROC and AUC https://www.youtube.com/watch?v=4jRBRDbJemM&ab_channel=StatQuestwithJoshStarmer
+
+* to understand Cross Validation/Validation Curve/GridSearchCV/Learning Curves: https://www.youtube.com/watch?v=w_bLGK4Pteo&ab_channel=MachineLearnia
